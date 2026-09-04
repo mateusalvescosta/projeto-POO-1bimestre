@@ -62,8 +62,8 @@ public class Imovel {
         return areaM2 * valorM2;
     }
 
-    public double calcularValor(double entrada) {
-        return (areaM2 * valorM2) - entrada;
+    public double calcularValor(double desconto) {
+        return (areaM2 * valorM2) - desconto;
     }
 
     public double calcularValor(double entrada, double juros){
